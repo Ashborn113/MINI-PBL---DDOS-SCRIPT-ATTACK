@@ -8,8 +8,6 @@ Ddos Script Attack a cyberattack that targets systems or networks by flooding th
 
 This project is maintained by [Diaz Sabat Dolly Silitonga](https://github.com/diaz-afk), [Naufal Kanz](https://github.com/Arkanz31), [Muhammad Hadi Khairullah](https://github.com/Ashborn113), [Ahmad Rizqi Hafil Ardhi](https://github.com/BananaMoustache), [Muhammad Farhandi Rahim](https://github.com/SantoryuAndi), Rangga Illahi.
 
----
-
 ## Main Features
 
 - **Brute Force**: Attempts various username and password combinations based on specific lengths and characters.
@@ -24,8 +22,6 @@ This project is maintained by [Diaz Sabat Dolly Silitonga](https://github.com/di
 ## Disclaimer
 
 This tool is designed for security testing with authorised permissions. Use for illegal or unauthorised activities is the sole responsibility of the user.
-
----
 
 ## Installation
 
@@ -47,8 +43,6 @@ pip install -r requirements.txt
 python3 passcrack.py
 ```
 
----
-
 ## Usage Guidelines
 
 ### Brute Force Attack
@@ -65,8 +59,6 @@ python3 passcrack.py -b --url http://target/login -username admin -password -c 5
 - **-c**: Charset (number).
 - **-length**: Password length (4 characters).
 
----
-
 ### Dictionary Attack
 
 #### Example: Dictionary Attack for Username and Password File Combination
@@ -77,8 +69,6 @@ python3 passcrack.py -d --url http://target/login -username usernames.txt -passw
 - **-d**: Mode dictionary attack.
 - **-username**: Username list file.
 - **-password**: Password list file.
-
----
 
 ### Rainbow Table
 
@@ -93,8 +83,6 @@ python3 passcrack.py rtgen md5 loweralpha 4 6 1000
 - **4**: Minimum length.
 - **6**: Maximum length.
 - **1000**: Number of chains.
-
----
 
 ## Parameters
 
@@ -113,18 +101,8 @@ python3 passcrack.py rtgen md5 loweralpha 4 6 1000
 | `rcrack`           | Command to crack hashes using rainbow tables.                                               | `rcrack --hash abc1234567890`                      |
 
 ### Charset Options for Brute Force (`-c`)
-- `1`: Alpha (A-Z)
-- `2`: Alpha-Numeric (a-z, 0-9)
-- `3`: alpha-numeric-symbol14 (a-z, 0-9, symbol14)
-- `4`: All Characters
-- `5`: Numeric (0-9)
-- `6`: Lowercase alpha (a-z)
-- `7`: Lowercase alpha-numeric (a-z, 0-9)
-
 
 **Note**: Use parameters correctly to avoid input errors. Refer to the examples above for proper usage.
-
----
 
 ## Troubleshooting
 
