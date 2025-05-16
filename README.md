@@ -6,7 +6,7 @@
 
 Ddos Script Attack a cyberattack that targets systems or networks by flooding them with unauthorized traffic from multiple sources, thus making websites or services unavailable to legitimate users.
 
-This project is maintained by [Diaz Sabat Dolly Silitonga](https://github.com/diaz-afk), [Naufal Kanz](https://github.com/Arkanz31), [Muhammad Hadi Khairullah](https://github.com/Ashborn113), [Ahmad Rizqi Hafil Ardhi](https://github.com/BananaMoustache), [Muhammad Farhandi Rahim](Muhammad Farhandi Rahim), [Rangga Illahi](Rangga Illahi).
+This project is maintained by [Diaz Sabat Dolly Silitonga](https://github.com/diaz-afk), [Naufal Kanz](https://github.com/Arkanz31), [Muhammad Hadi Khairullah](https://github.com/Ashborn113), [Ahmad Rizqi Hafil Ardhi](https://github.com/BananaMoustache), [Muhammad Farhandi Rahim]([Muhammad Farhandi Rahim](https://github.com/SantoryuAndi)), Rangga Illahi.
 
 ---
 
